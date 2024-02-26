@@ -5,3 +5,160 @@ Watching for file changes with StatReloader
 "GET /game_2/ HTTP/1.1" 200 1
 Случайное число: 86
 "GET /game_3/ HTTP/1.1" 200 2
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 71688
+Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 400 71656
+Случайное число: 79
+"GET /game_3/ HTTP/1.1" 200 2
+Ответ: Решка
+"GET /game_1/ HTTP/1.1" 200 10
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2781
+Ответ: Орел
+"GET /game_1/ HTTP/1.1" 200 8
+Ответ: Орел
+"GET /game_1/ HTTP/1.1" 200 8
+Ответ: Орел
+"GET /game_1/ HTTP/1.1" 200 8
+Ответ: Орел
+"GET /game_1/ HTTP/1.1" 200 8
+Ответ: Орел
+"GET /game_1/ HTTP/1.1" 200 8
+Ответ: Орел
+"GET /game_1/ HTTP/1.1" 200 8
+Ответ: Решка
+"GET /game_1/ HTTP/1.1" 200 10
+Ответ: Орел
+"GET /game_1/ HTTP/1.1" 200 8
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static_game/ HTTP/1.1" 200 4
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static_game/ HTTP/1.1" 200 4
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static_game/ HTTP/1.1" 200 4
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /static_game/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 25, in static_game
+    count = Coin.coin_throw()
+            ^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py", line 18, in coin_throw
+    dict_coin['Решка'] += 1
+    ~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'Решка'
+"GET /static_game/ HTTP/1.1" 500 71852
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static_game/ HTTP/1.1" 200 18
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static_game/ HTTP/1.1" 200 18
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /static_game/ HTTP/1.1" 200 26
