@@ -1,0 +1,7 @@
+Watching for file changes with StatReloader
+Ответ: Орел
+"GET /game_1/ HTTP/1.1" 200 8
+Грань кубика: 5
+"GET /game_2/ HTTP/1.1" 200 1
+Случайное число: 86
+"GET /game_3/ HTTP/1.1" 200 2
