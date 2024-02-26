@@ -3,7 +3,7 @@ from random import choice, randint
 from django.http import HttpResponse
 
 import logging
-from .models import Coin
+from .models import Coin, Author
 
 logger = logging.getLogger(__name__)
 
@@ -24,6 +24,14 @@ def game_1(request):
 def static_game(request):
     count = Coin.coin_throw()
     return HttpResponse(f"Орел: {count['Орел']}, Решка: {count['Решка']}")
+
+
+def view_full_name(request):
+    full_name = Author.objects.all()
+    result = ''
+    for item in full_name:
+        result += f"{item.print_full_name()}<br>"
+    return HttpResponse(result)
 
 
 def game_2(request):

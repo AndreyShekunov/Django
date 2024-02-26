@@ -24,3 +24,14 @@ class Coin(models.Model):
 
     def __str__(self):
         return f"{self.side}, {self.pk}"
+
+
+class Author(models.Model):
+    name = models.CharField(max_length=100)
+    surname = models.CharField(max_length=100)
+    email = models.EmailField()
+    biography = models.TextField()
+    birthday = models.DateField()
+
+    def print_full_name(self):
+        return f"{self.name} {self.surname}"

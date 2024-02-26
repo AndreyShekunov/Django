@@ -162,3 +162,85 @@ Watching for file changes with StatReloader
 /home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
 Watching for file changes with StatReloader
 "GET /static_game/ HTTP/1.1" 200 26
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /view_full_name/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 30, in view_full_name
+    full_name = Author.print_full_name()
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Author.print_full_name() missing 1 required positional argument: 'self'
+"GET /view_full_name/ HTTP/1.1" 500 68139
+Watching for file changes with StatReloader
+"GET /view_full_name/ HTTP/1.1" 200 270
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /view_full_name/ HTTP/1.1" 200 324
