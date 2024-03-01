@@ -3,14 +3,22 @@ from random import choice, randint
 from django.http import HttpResponse
 
 import logging
+
+from django.shortcuts import render
+
 from .models import Coin, Author
 
 logger = logging.getLogger(__name__)
 
 
 def index(request):
-    logger.info("Страница удачно открылась")
-    return HttpResponse("Hello world!")
+    logger.info("'Главная' страница удачно открылась")
+    return render(request, "myapp/index.html")
+
+
+def about(request):
+    logger.info("Страница 'О нас' удачно открылась")
+    return render(request, "myapp/about.html")
 
 
 def game_1(request):
@@ -18,7 +26,8 @@ def game_1(request):
     coin = Coin(side=answer)
     coin.save()
     logger.info(f"Ответ: {answer}")
-    return HttpResponse(answer)
+    context = {'result': answer}
+    return render(request, "myapp/games.html", context)
 
 
 def static_game(request):
@@ -37,10 +46,12 @@ def view_full_name(request):
 def game_2(request):
     answer = randint(1, 6)
     logger.info(f"Грань кубика: {answer}")
-    return HttpResponse(answer)
+    context = {'result': answer}
+    return render(request, "myapp/games.html", context)
 
 
 def game_3(request):
     answer = randint(0, 100)
     logger.info(f"Случайное число: {answer}")
-    return HttpResponse(answer)
+    context = {'result': answer}
+    return render(request, "myapp/games.html", context)
