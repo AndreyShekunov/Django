@@ -35,3 +35,16 @@ class Author(models.Model):
 
     def print_full_name(self):
         return f"{self.name} {self.surname}"
+
+
+class Posts(models.Model):
+    name_title = models.CharField(max_length=200)
+    description = models.TextField()
+    date = models.DateField(auto_now_add=True)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    category = models.CharField(max_length=100)
+    count_watching = models.IntegerField(default=0)
+    is_published = models.BooleanField(default=False)
+
+    def __str__(self):
+        return f"{self.name_title}, {self.author}"

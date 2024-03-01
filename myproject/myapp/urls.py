@@ -10,4 +10,6 @@ urlpatterns = [
     path('static_game/', views.static_game, name='static_game'),
     path('view_full_name/', views.view_full_name, name='view_full_name'),
     path('about/', views.about, name='about'),
+    path('author/<int:author_id>', views.show_posts, name='show_posts'),
+    path('post/<int:post_id>', views.show_post_id, name='show_post_id'),
 ]

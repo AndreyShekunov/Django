@@ -6,7 +6,7 @@ import logging
 
 from django.shortcuts import render
 
-from .models import Coin, Author
+from .models import Coin, Author, Posts
 
 logger = logging.getLogger(__name__)
 
@@ -55,3 +55,18 @@ def game_3(request):
     logger.info(f"Случайное число: {answer}")
     context = {'result': answer}
     return render(request, "myapp/games.html", context)
+
+
+def show_posts(request, author_id):
+    author = Author.objects.get(pk=author_id)
+    posts = Posts.objects.filter(author=author)
+
+    context = {'posts': posts}
+    return render(request, "myapp/posts.html", context)
+
+
+def show_post_id(request, post_id):
+    post = Posts.objects.get(pk=post_id)
+
+    context = {'post': post}
+    return render(request, "myapp/post.html", context)
