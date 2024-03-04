@@ -3264,3 +3264,360 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'show_post_id' with arguments
 "GET /post/10 HTTP/1.1" 200 175
 "GET /post/11 HTTP/1.1" 200 175
 "GET /post/12 HTTP/1.1" 200 175
+Watching for file changes with StatReloader
+'Главная' страница удачно открылась
+"GET / HTTP/1.1" 200 178
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3877
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.choice_games didn't return an HttpResponse object. It returned None instead.
+"GET /games_form/ HTTP/1.1" 500 69206
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.choice_games didn't return an HttpResponse object. It returned None instead.
+"GET /games_form/ HTTP/1.1" 500 69343
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+Watching for file changes with StatReloader
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67781
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67828
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67828
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67828
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67828
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67670
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67807
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67807
+Internal Server Error: /games_form/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 82, in choice_games
+    form = GameForm(request.Post)
+                    ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'Post'
+"GET /games_form/ HTTP/1.1" 500 67807
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /games_form/ HTTP/1.1" 200 974
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /games_form/ HTTP/1.1" 200 813
+"POST /games_form/ HTTP/1.1" 200 833
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /games_form/ HTTP/1.1" 200 813
+'Главная' страница удачно открылась
+"GET / HTTP/1.1" 200 178
+"GET /games_form/ HTTP/1.1" 200 813
+Грань кубика: 6
+"POST /games_form/ HTTP/1.1" 200 138
+"GET /games_form/ HTTP/1.1" 200 813
+Ответ: Решка
+"POST /games_form/ HTTP/1.1" 200 147
+"GET /games_form/ HTTP/1.1" 200 813
+Случайное число: 56
+"POST /games_form/ HTTP/1.1" 200 139
+"GET /games_form/ HTTP/1.1" 200 813
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader

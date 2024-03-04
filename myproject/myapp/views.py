@@ -6,6 +6,7 @@ import logging
 
 from django.shortcuts import render
 
+from .form import GameForm
 from .models import Coin, Author, Posts
 
 logger = logging.getLogger(__name__)
@@ -70,3 +71,21 @@ def show_post_id(request, post_id):
 
     context = {'post': post}
     return render(request, "myapp/post.html", context)
+
+
+def choice_games(request):
+    if request.method == 'POST':
+        form = GameForm(request.POST)
+        if form.is_valid():
+            game = form.data['game']
+            number = form.data['number']
+            if game == 'К':
+                return game_2(request)
+            elif game == 'М':
+                return game_1(request)
+            elif game == 'Ч':
+                return game_3(request)
+    else:
+        form = GameForm()
+    # print(form)
+    return render(request, "myapp/games_form.html", {'form': form})

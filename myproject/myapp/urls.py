@@ -12,4 +12,5 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('author/<int:author_id>', views.show_posts, name='show_posts'),
     path('post/<int:post_id>', views.show_post_id, name='show_post_id'),
+    path('games_form/', views.choice_games, name='choice_games'),
 ]
