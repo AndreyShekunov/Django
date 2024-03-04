@@ -6,7 +6,7 @@ import logging
 
 from django.shortcuts import render
 
-from .form import GameForm, AuthorForm
+from .form import GameForm, AuthorForm, PostForm
 from .models import Coin, Author, Posts
 
 logger = logging.getLogger(__name__)
@@ -105,3 +105,22 @@ def add_author(request):
     else:
         form = AuthorForm()
     return render(request, "myapp/add_author.html", {'form': form})
+
+
+def add_post(request):
+    if request.method == 'POST':
+        form = PostForm(request.POST)
+        if form.is_valid():
+            name_title = form.data['name_title']
+            description = form.data['description']
+            author_id = form.data['author']
+            author = Author.objects.get(pk=author_id)
+            category = form.data['category']
+            count_watching = form.data['count_watching']
+            # is_published = form.data['is_published']
+            post = Posts(name_title=name_title, description=description, author=author, category=category,
+                         count_watching=count_watching)
+            post.save()
+    else:
+        form = PostForm()
+    return render(request, "myapp/add_post.html", {'form': form})

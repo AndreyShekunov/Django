@@ -3686,3 +3686,503 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "GET /add_author/ HTTP/1.1" 200 1204
 "GET /add_author/ HTTP/1.1" 200 1204
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /add_post/ HTTP/1.1" 200 2391
+Internal Server Error: /add_post/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 120, in add_post
+    post = Posts(name_title=name_title, description=description, author=author, category=category,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 284, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'18'": "Posts.author" must be a "Author" instance.
+"POST /add_post/ HTTP/1.1" 500 82871
+Internal Server Error: /add_post/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 120, in add_post
+    post = Posts(name_title=name_title, description=description, author=author, category=category,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 284, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'18'": "Posts.author" must be a "Author" instance.
+"POST /add_post/ HTTP/1.1" 500 82875
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add_post/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 123, in add_post
+    post.save()
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 822, in save
+    self.save_base(
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1013, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1006, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1183, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 1173, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“on” value must be either True or False.']
+"POST /add_post/ HTTP/1.1" 500 146959
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_post/ HTTP/1.1" 200 2240
+Internal Server Error: /add_post/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/utils/datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'is_published'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py", line 120, in add_post
+    is_published = form.data['is_published']
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/utils/datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'is_published'
+"POST /add_post/ HTTP/1.1" 500 81146
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /add_post/ HTTP/1.1" 200 2316
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+/home/andy/PycharmProjects/Django_seminars/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+Watching for file changes with StatReloader
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5944
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+'Главная' страница удачно открылась
+"GET / HTTP/1.1" 200 178
+"GET /admin/ HTTP/1.1" 200 5944
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 7484
+"GET /admin/myapp/author/ HTTP/1.1" 200 16320
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/myapp/coin/ HTTP/1.1" 200 15052
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/posts/ HTTP/1.1" 200 47545
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/ HTTP/1.1" 200 16320
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/add/ HTTP/1.1" 200 12053
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 1094
+"POST /admin/myapp/author/add/ HTTP/1.1" 302 0
+"GET /admin/myapp/author/ HTTP/1.1" 200 16888
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/auth/group/add/ HTTP/1.1" 200 13964
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 10662
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/add/ HTTP/1.1" 200 13964
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 11010
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/group/add/ HTTP/1.1" 200 13964
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/ HTTP/1.1" 200 11338
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12364
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 24974
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14261
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12364
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 24974
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 14798
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/auth/user/add/ HTTP/1.1" 200 12364
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/4/change/ HTTP/1.1" 200 24974
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 15345
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5870
+"GET /admin/myapp/author/ HTTP/1.1" 200 15466
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5870
+"GET /admin/myapp/author/ HTTP/1.1" 200 9612
+"GET /admin/myapp/author/20/change/ HTTP/1.1" 200 11075
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5745
+"GET /admin/myapp/author/ HTTP/1.1" 200 9361
+"GET /admin/myapp/author/20/change/ HTTP/1.1" 200 10055
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/20/history/ HTTP/1.1" 200 6513
+"GET /admin/myapp/posts/ HTTP/1.1" 200 19085
+"GET /admin/myapp/posts/224/change/ HTTP/1.1" 200 10766
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/1/change/ HTTP/1.1" 200 10062
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/logout/ HTTP/1.1" 200 3817
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 11189
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 11189
+"GET /admin/myapp/author/ HTTP/1.1" 200 21149
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/20/change/ HTTP/1.1" 200 12368
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/ HTTP/1.1" 200 21149
+"GET /admin/myapp/author/?q=Name1 HTTP/1.1" 200 11921
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/10/change/?_changelist_filters=q%3DName1 HTTP/1.1" 200 12481
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/?q=Name1 HTTP/1.1" 200 11921
+"GET /admin/myapp/author/1/change/?_changelist_filters=q%3DName1 HTTP/1.1" 200 12476
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/?q=Name1 HTTP/1.1" 200 11921
+"GET /admin/myapp/author/ HTTP/1.1" 200 21149
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp/author/ HTTP/1.1" 200 21461
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp/author/ HTTP/1.1" 200 22549
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/?name=Name1 HTTP/1.1" 200 13536
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/?name=Name2 HTTP/1.1" 200 13536
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/?name=Name3 HTTP/1.1" 200 13536
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/?name=Name4 HTTP/1.1" 200 13536
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/?name=Name5 HTTP/1.1" 200 13536
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/?name=Name6 HTTP/1.1" 200 13536
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/? HTTP/1.1" 200 22549
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp/author/? HTTP/1.1" 200 22549
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/20/change/ HTTP/1.1" 200 11181
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp/author/20/change/ HTTP/1.1" 200 11826
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp/author/20/change/ HTTP/1.1" 200 12624
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp/author/20/change/ HTTP/1.1" 200 12614
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/admin.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/myapp/author/20/change/ HTTP/1.1" 200 12614
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"GET /admin/myapp/author/ HTTP/1.1" 200 22637
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546
+"POST /admin/myapp/author/ HTTP/1.1" 302 0
+"GET /admin/myapp/author/ HTTP/1.1" 200 22633
+"GET /admin/jsi18n/ HTTP/1.1" 200 17546

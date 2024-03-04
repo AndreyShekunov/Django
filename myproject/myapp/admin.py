@@ -1,3 +1,42 @@
+from datetime import datetime
+
 from django.contrib import admin
 
-# Register your models here.
+from .models import Coin, Author, Posts
+
+
+class AuthorAdmin(admin.ModelAdmin):
+
+    @admin.action(description="Изменение даты рождения")
+    def reset_birthday(modeladmin, request, queryset):
+        queryset.update(birthday=datetime.now())
+
+    list_display = ['name', 'surname', 'email', 'biography', 'birthday']
+    search_fields = ['name']
+    ordering = ['-birthday']
+    list_filter = ['name']
+    actions = [reset_birthday]
+
+    fieldsets = [
+        (
+            'Имя',
+            {
+                'classes': ['wide'],
+                'fields': ['name', 'surname'],
+            },
+        ),
+        (
+            'Подробности',
+            {
+                'classes': ['collapse'],
+                'description': ['Информация'],
+                'fields': ['email', 'biography', 'birthday']
+            },
+        ),
+
+    ]
+
+
+admin.site.register(Coin)
+admin.site.register(Author, AuthorAdmin)
+admin.site.register(Posts)

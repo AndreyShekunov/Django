@@ -1,5 +1,5 @@
 from django import forms
-from .models import Author
+from .models import Author, Posts
 
 
 class GameForm(forms.Form):
@@ -13,7 +13,14 @@ class GameForm(forms.Form):
 #     email = forms.EmailField()
 #     biography = forms.CharField()
 #     birthday = forms.DateField()
+
 class AuthorForm(forms.ModelForm):
     class Meta:
         model = Author
         fields = ['name', 'surname', 'email', 'biography', 'birthday']
+
+
+class PostForm(forms.ModelForm):
+    class Meta:
+        model = Posts
+        fields = ['name_title', 'description', 'author', 'category', 'count_watching']
