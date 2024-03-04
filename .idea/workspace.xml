@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94e7e07a-29be-4524-b67b-cfe2b8d7171d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myproject/myapp/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/myapp/templates/myapp/games_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/myapp/templates/myapp/add_author.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/log/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/log/django.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/views.py" afterDir="false" />
     </list>
@@ -115,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709296956946</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4 семинар, Задание 1">
+      <option name="closed" value="true" />
+      <created>1709541460749</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709541460749</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,6 +132,7 @@
     <MESSAGE value="2 семинар, Задание 3" />
     <MESSAGE value="3 семинар, Задание 3" />
     <MESSAGE value="3 семинар, Задание 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 семинар, Задание 4" />
+    <MESSAGE value="4 семинар, Задание 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 семинар, Задание 1" />
   </component>
 </project>

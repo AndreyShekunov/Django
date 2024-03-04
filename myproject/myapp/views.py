@@ -6,7 +6,7 @@ import logging
 
 from django.shortcuts import render
 
-from .form import GameForm
+from .form import GameForm, AuthorForm
 from .models import Coin, Author, Posts
 
 logger = logging.getLogger(__name__)
@@ -89,3 +89,19 @@ def choice_games(request):
         form = GameForm()
     # print(form)
     return render(request, "myapp/games_form.html", {'form': form})
+
+
+def add_author(request):
+    if request.method == 'POST':
+        form = AuthorForm(request.POST)
+        if form.is_valid():
+            name = form.data['name']
+            surname = form.data['surname']
+            email = form.data['email']
+            biography = form.data['biography']
+            birthday = form.data['birthday']
+            author = Author(name=name, surname=surname, email=email, biography=biography, birthday=birthday)
+            author.save()
+    else:
+        form = AuthorForm()
+    return render(request, "myapp/add_author.html", {'form': form})

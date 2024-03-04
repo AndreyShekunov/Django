@@ -1,4 +1,5 @@
 from django import forms
+from .models import Author
 
 
 class GameForm(forms.Form):
@@ -6,4 +7,13 @@ class GameForm(forms.Form):
     number = forms.IntegerField(min_value=1, max_value=64)
 
 
-
+# class AuthorForm(forms.Form):
+#     name = forms.CharField(max_length=100)
+#     surname = forms.CharField(max_length=100)
+#     email = forms.EmailField()
+#     biography = forms.CharField()
+#     birthday = forms.DateField()
+class AuthorForm(forms.ModelForm):
+    class Meta:
+        model = Author
+        fields = ['name', 'surname', 'email', 'biography', 'birthday']

@@ -3621,3 +3621,68 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 /home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
 Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_author/ HTTP/1.1" 200 872
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /add_author/ HTTP/1.1" 200 1181
+Internal Server Error: /add_author/
+Traceback (most recent call last):
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/andy/PycharmProjects/Django_seminars/.venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.add_author didn't return an HttpResponse object. It returned None instead.
+"POST /add_author/ HTTP/1.1" 500 71280
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /add_author/ HTTP/1.1" 200 1345
+"POST /add_author/ HTTP/1.1" 200 1345
+"POST /add_author/ HTTP/1.1" 200 1345
+"POST /add_author/ HTTP/1.1" 200 1345
+"GET /add_author/ HTTP/1.1" 200 1181
+"POST /add_author/ HTTP/1.1" 200 1345
+"POST /add_author/ HTTP/1.1" 200 1270
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+/home/andy/PycharmProjects/Django_seminars/myproject/myapp/form.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /add_author/ HTTP/1.1" 200 1204
+"GET /add_author/ HTTP/1.1" 200 1204
